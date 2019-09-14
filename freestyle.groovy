@@ -8,4 +8,5 @@ freeStyleJob('Task2') {
                 url('git@github.com:vsindhu-2k19/myautomationjenkins.git')
             }
        }
+   }
 }
