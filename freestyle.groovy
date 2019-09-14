@@ -4,13 +4,8 @@ freeStyleJob('Task2') {
     scm {
         git {
             remote {
-                name('task')
+                name('task1')
                 url('git@github.com:vsindhu-2k19/myautomationjenkins.git')
             }
-            extensions {
-                cleanAfterCheckout()
-                relativeTargetDirectory('repo1')
-            }
-        }
-      }
+       }
 }
