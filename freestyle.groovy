@@ -4,7 +4,7 @@ freeStyleJob('Task2') {
     scm {
         git {
             remote {
-                name('freestyle')
+                name('task')
                 url('git@github.com:vsindhu-2k19/myautomationjenkins.git')
             }
             extensions {
